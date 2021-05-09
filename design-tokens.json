@@ -1,0 +1,162 @@
+{
+  "colors" : [
+    {
+      "name" : "Brand/RAC brand pink",
+      "value" : "#DD3782"
+    },
+    {
+      "name" : "Brand/RAC brand red",
+      "value" : "#ED1C24"
+    },
+    {
+      "name" : "Brand/RAC brand black",
+      "value" : "#000000"
+    },
+    {
+      "name" : "Brand/RAC brand seagreen",
+      "value" : "#77E8CA"
+    },
+    {
+      "name" : "Brand/RAC brand green",
+      "value" : "#70AF18"
+    },
+    {
+      "name" : "Brand/RAC brand yellow",
+      "value" : "#FFCB05"
+    },
+    {
+      "name" : "Backgrounds/RAC background white",
+      "value" : "#ffffff"
+    },
+    {
+      "name" : "Backgrounds/RAC background light",
+      "value" : "#f1f3f4"
+    },
+    {
+      "name" : "Neutrals/RAC gray 100",
+      "value" : "#CFCFCF"
+    },
+    {
+      "name" : "Neutrals/RAC gray 200",
+      "value" : "#929292"
+    },
+    {
+      "name" : "Neutrals/RAC gray 800",
+      "value" : "#333333"
+    },
+    {
+      "name" : "Neutrals/RAC gray 900",
+      "value" : "#141414"
+    }
+  ],
+
+  "fonts" : [
+    {"primary-font" : {
+      "name" : "Primary Font",
+      "fontFamily" : "Open Sans"
+    }},
+    {"secondary-font" : {
+      "name" : "Secondary Font",
+      "fontFamily" : "Enriqueta"
+    }}
+  ],
+  "typeStyles" : [
+    {"heading-1" : {
+      "name" : "Heading 1",
+      "fontFamily" : "Enriqueta",
+      "fontSize" : "40px",
+      "lineHeight" : "54px",
+      "letterSpacing" : "0em"
+    }},
+    {"heading-2" : {
+      "name" : "Heading 2",
+      "fontFamily" : "Enriqueta",
+      "fontSize" : "32px",
+      "lineHeight" : "44px",
+      "letterSpacing" : "0em"
+    }},
+    {"heading-3" : {
+      "name" : "Heading 3",
+      "fontFamily" : "Enriqueta",
+      "fontSize" : "28px",
+      "lineHeight" : "38px",
+      "letterSpacing" : "0em"
+    }},
+    {"heading-4" : {
+      "name" : "Heading 4",
+      "fontFamily" : "Enriqueta",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "0em"
+    }},
+    {"heading-5" : {
+      "name" : "Heading 5",
+      "fontFamily" : "Enriqueta",
+      "fontSize" : "20px",
+      "lineHeight" : "28px",
+      "letterSpacing" : "0em"
+    }},
+    {"heading-6" : {
+      "name" : "Heading 6",
+      "fontFamily" : "Enriqueta",
+      "fontSize" : "16px",
+      "lineHeight" : "22px",
+      "letterSpacing" : "0em"
+    }},
+    {"body-text" : {
+      "name" : "Body text",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "16px",
+      "lineHeight" : "24px",
+      "letterSpacing" : "0em"
+    }},
+    {"image-caption" : {
+      "name" : "Image caption",
+      "fontFamily" : "Enriqueta",
+      "fontSize" : "12px",
+      "lineHeight" : "auto",
+      "letterSpacing" : "0em"
+    }},
+    {"pull-quote" : {
+      "name" : "Pull quote ",
+      "fontFamily" : "Enriqueta",
+      "fontSize" : "18px",
+      "lineHeight" : "24px",
+      "letterSpacing" : "0em"
+    }}
+  ],
+  "SpacePatterns" : [
+    {
+      "name" : "none",
+      "value" : "0px"
+    },
+    {
+      "name" : "xx-small",
+      "value" : "2px"
+    },
+    {
+      "name" : "x-small",
+      "value" : "4px"
+    },
+    {
+      "name" : "small",
+      "value" : "8px"
+    },
+    {
+      "name" : "regular",
+      "value" : "16px"
+    },
+    {
+      "name" : "large",
+      "value" : "32px"
+    },
+    {
+      "name" : "x-large",
+      "value" : "64px"
+    },
+    {
+      "name" : "xx-large",
+      "value" : "128px"
+    }
+  ]
+}
