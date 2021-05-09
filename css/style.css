@@ -46,6 +46,8 @@
 
     --baseFontSize: 100%;
     --smallText: var(--text-sm);
+    --primary-font: "Open Sans", sans-serif;
+    --secondary-font: 'Enriqueta';
 
 
     /* Spacing scale */
@@ -59,6 +61,15 @@
     --space-lg:    calc(2 * var(--space-unit));
     --space-xl:    calc(3.25 * var(--space-unit));
     --space-xxl:   calc(5.25 * var(--space-unit));
+
+    --none: 0px;
+    --xx-small: 2px;
+    --x-small: 4px;
+    --small: 8px;
+    --regular: 16px;
+    --large: 32px;
+    --x-large: 64px;
+    --xx-large: 128px;
 }
 
 html {
@@ -141,39 +152,66 @@ a {
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Enriqueta', sans-serif;
+  font-family: 'Enriqueta', serif;
   font-weight:400;
   line-height:1;
 }
 
+/* text styles*/
 h1 {
-  font-size:var(--text-xxxl);
-  margin-bottom:1.25rem;
-
+  font-family : var(--secondary-font);
+  font-size : 40px;
+  line-height: 54px;
+  letter-spacing : 0em;
 }
 h2 {
-  font-size:var(--text-xxl);
-  margin-bottom:1.25rem;
-
+  font-family : var(--secondary-font);
+  font-size : 32px;
+  line-height: 44px;
+  letter-spacing : 0em;
 }
 h3 {
-  font-size:var(--text-xl);
-  margin-bottom:1rem;
-
+  font-family : var(--secondary-font);
+  font-size : 28px;
+  line-height: 38px;
+  letter-spacing : 0em;
 }
 h4 {
-  font-size:var(--text-lg);
-  margin-bottom:1rem;
-
+  font-family : var(--secondary-font);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : 0em;
 }
 h5 {
-  font-size:var(--text-md);
-  margin-bottom:.5rem;
-
+  font-family : var(--secondary-font);
+  font-size : 20px;
+  line-height: 28px;
+  letter-spacing : 0em;
 }
-
 h6 {
-  font-size:var(--text-sm);
+  font-family : var(--secondary-font);
+  font-size : 16px;
+  line-height: 22px;
+  letter-spacing : 0em;
+}
+.body-text {
+  font-family : var(--primary-font);
+  font-size : 16px;
+  line-height: 24px;
+  letter-spacing : 0em;
+}
+.image-caption {
+  font-family : var(--secondary-font);
+  font-size : 12px;
+  line-height: auto;
+  letter-spacing : 0em;
+  text-transform: uppercase;
+}
+.pull-quote {
+  font-family : var(--secondary-font);
+  font-size : 18px;
+  line-height: 24px;
+  letter-spacing : 0em;
 }
 
 p, li {
