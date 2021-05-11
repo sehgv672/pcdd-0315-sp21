@@ -13,6 +13,15 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
+  <!-- THIS IS A LINK TO FONT AWESOME ICONS -->
+  <script src="https://kit.fontawesome.com/33b8a6be19.js" crossorigin="anonymous"></script>
+
+    <!-- THIS IS FOR JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+ <!-- THIS IS TO EMBED JAVASCRIPT -->
+ <script type="text/javascript" src="embedScript.js"></script>
+
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
@@ -32,39 +41,190 @@
   <!-- Add your site or application content here -->
   <main>
     <div class="ds-container">
-      <div class="left-sidebar"><h3>Riverside Art Center Design System</h3>
+      <div class="left-sidebar"><h3>Riverside Art Center <br/>Design System</h3>
         <p>Version 1.0</p>
-        <p>Updated April 20, 2021</p>
-        </div>
+        <p>Updated May 1, 2021</p>
+      </div>
+
       <div class="main-content">
         
         <section class="section">
           <p class="section-label">Typography</p>
-          <h1 class="header">H1 headline</h1>
-          <h2 class="header">H2 headline</h2>
-          <h3 class="header">H3 headline</h3>
-          <h4 class="header">H4 headline</h4>
-          <h5 class="header">H5 headline</h5>
-          <h6 class="header">H6 headline</h6>
+          <p class="body-text" style="color:#333333;">Headlines</p>
+          <h1 >H1 headline</h1>
+          <h2 >H2 headline</h2>
+          <h3 >H3 headline</h3>
+          <h4 >H4 headline</h4>
+          <h5 >H5 headline</h5>
+          <h6 >H6 headline</h6>
 
-          <p>This is what body copy looks like. Strategic design means designing for a specific objective. More often than not, that objective is growing a business. But it’s important to recognize that there’s a difference between being strategic by being the conduit between the business and the user, and designing for the business alone.</p>
+          <p class="body-text" style="color:#333333;">Sub Heading</p>
+          <p class="sub-heading" style="font-size:18px;">RAC is a non-profit arts corporation</p>
+
+          <p class="body-text" style="color:#333333;">Body Text</p>
+          <p class="body-text">This is what body copy looks like. Riverside Art Center, a 501c3 organization, was founded to inspire creativity through the arts. Located in beautiful & historic downtown Wapakoneta, OH. Riverside Art Center is home to a variety of art classes and exhibits for all ages. Create one of a kind art pieces at our art events. Visit our gallery to view our members art work and purchase pieces for your home. We host art exhibits featuring members, local artists and students from local schools. Sign up for our art classes to learn painting, drawing and similar techniques.</p>
+        
+          <p class="body-text" style="color:#333333;">Pull Quote</p>
+          <p class="pull-quote">“Saving the past in black and white and sometimes with a little color.”</p>
+
+          <p class="body-text" style="color:#333333;">Image Caption</p>
+          <p class="image-caption">Available at the Olive Tree in Bellefontaine</p>
         </section>
 
           <section class="section">
           <p class="section-label">Colors</p>
+
+          <p class="body-text" style="color:#333333;">Primary Colors</p>
           <div class="primary-hue color-brand-pink"><div>RAC brand pink</div><div>#DD3782<br></div></div>
           <div class="primary-hue color-brand-black"><div>RAC brand black</div><div>#000000<br></div></div>
+          <p class="body-text" style="color:#333333;">Secondary Colors</p>
           <div class="secondary-hue color-brand-seagreen"><div>RAC brand seagreen</div><div>#77E8CA<br></div></div>
           <div class="secondary-hue color-brand-green"><div>RAC brand green</div><div>#70AF18<br></div></div>
           <div class="secondary-hue color-brand-yellow"><div>RAC brand yellow</div><div>#FFCB05<br></div></div>
           <div class="accent-hue color-brand-red"><div>RAC brand red</div><div>#ED1C24<br></div></div>
+          <p class="body-text" style="color:#333333;">Neutral Grays</p>
           <div class="secondary-hue color-gray900"><div>RAC gray 900</div><div>#141414<br></div></div>
           <div class="secondary-hue color-gray800"><div>RAC gray 800</div><div>#333333<br></div></div>
           <div class="secondary-hue color-gray200 text-dark"><div>RAC gray 200</div><div>#929292<br></div></div>
           <div class="secondary-hue color-gray100 text-dark"><div>RAC gray 100</div><div>#CFCFCF<br></div></div>
 
+        </section>
+
+        <section class="section">
+          <p class="section-label">Spacing</p>
+          <div style="display: flex; align-items:center;"><div class="body-text" style="color:#333333;">&nbsp;&nbsp;4 x &nbsp;&nbsp;4 px</div><div class="square1" style="width:4px; height:4px;"></div></div>
+          <div style="display: flex; align-items:center;"><div class="body-text" style="color:#333333;">&nbsp;&nbsp;8 x &nbsp;&nbsp;8 px</div><div class="square1" style="width:8px; height:8px;"></div></div>
+          <div style="display: flex; align-items:center;"><div class="body-text" style="color:#333333;">12 x 12 px</div><div class="square1" style="width:12px; height:12px;"></div></div>
+          <div style="display: flex; align-items:center;"><div class="body-text" style="color:#333333;">16 x 16 px</div><div class="square1" style="width:16px; height:16px;"></div></div>
+          <div style="display: flex; align-items:center;"><div class="body-text" style="color:#333333;">24 x 24 px</div><div class="square1" style="width:24px; height:24px;"></div></div>
+          <div style="display: flex; align-items:center;"><div class="body-text" style="color:#333333;">32 x 32 px</div><div class="square1" style="width:32px; height:32px;"></div></div>
+          <div style="display: flex; align-items:center;"><div class="body-text" style="color:#333333;">40 x 40 px</div><div class="square1" style="width:40px; height:40px;"></div></div>
+          <div style="display: flex; align-items:center;"><div class="body-text" style="color:#333333;">48 x 48 px</div><div class="square1" style="width:48px; height:48px;"></div></div>
+          <div style="display: flex; align-items:center;"><div class="body-text" style="color:#333333;">56 x 56 px</div><div class="square1" style="width:56px; height:56px;"></div></div>
+        </section>
+
+        <section class="section">
+          <p class="section-label">Navigation</p>
+          <p class="body-text" style="color:#333333;">Desktop Navigation (Hover all the navigation links)</p>
+
+          <div class="row navPanel">
+            <!-- THIS IS THE LOGO -->
+            <div class="col-2 logo"><p>LOGO</p></div>
+
+            <div class="col-8">
+
+              <!-- THIS IS THE DESKTOP/TABLET NAVIGATION -->
+                <div class="desktopNavigation">
+              
+                  <div class="float_center">
+
+                    <ul class="child">
+                    <li><a class="sub-heading" style="color: var(--RAC-brand-pink);" href="#">HOME</a></li>
+                    <li><a class="sub-heading" href="#">ABOUT</a></li>
+                    <li><a class="sub-heading" href="#">EVENTS</a></li>
+                    <li><a class="sub-heading" href="#">MEMBERSHIP</a></li>
+                    </ul>
+
+                    <div class="clear"></div>
+
+                  </div>
+                
+                </div>
+                
+            </div>
+
+            <div class="col-2 ">
+              <button>
+                <p>DONATE</p>
+              </button>
+            </div>
+
+          </div>
+
+          <p class="body-text" style="color:#333333;">Mobile Navigation (Click the hamburger icon and Hover the navigation button)</p>
+
+          <div style="width: 500px; height: 300px; background-color: #DDF9F1;">
+          <div class="row navPanel" >
+
+            <div class="col-2">
+
+              <!-- THIS IS THE MOBILE NAVIGATION -->
+                <div class="mobileMenuButton"><i class="fas fa-bars"></i></div>
+                <div class='mobileExit'><i class="fas fa-times"></i></div>
+
+                <div class="mobileNavigation">
+                  
+                  <ul>
+                    <li><a class="sub-heading" href="#">HOME</a></li>
+                    <li><a class="sub-heading" href="#">ABOUT</a></li>
+                    <li><a class="sub-heading" href="#">WORK</a></li>
+                    <li><a class="sub-heading" href="#">CONTACT</a></li>
+                  </ul>
+                </div>
+                
+            </div>
+
+            <!-- THIS IS THE LOGO -->
+            <div class="col-8 logo" style="text-align: center;"><p>LOGO</p></div>
+
+            <div class="col-2 ">
+              <button>
+                <p>DONATE</p>
+              </button>
+            </div>
+
+          </div>
+          </div>
 
         </section>
+
+        <section class="section">
+          <p class="section-label">Buttons</p>
+          <p class="body-text" style="color:#333333;">Primary Button (Try Hovering)</p>
+          <button class="button1">
+            <p>Primary</p>
+          </button>
+          <p class="body-text" style="color:#333333;">Secondary Button (Try Hovering)</p>
+          <button class="button2">
+            <p>Secondary</p>
+          </button>
+          <p class="body-text" style="color:#333333;">Disabled Button</p>
+          <button class="button3">
+            <p>Disabled</p>
+          </button>
+        </section>
+
+        <section class="section">
+          <p class="section-label">Forms</p>
+          <p class="body-text" style="color:#333333;">Default (Input text)</p>
+          <form>
+            <label class="label1">LABEL</label>
+            <input type="text" class="text1" placeholder="Enter text here"/>
+          </form>
+          <p class="body-text" style="color:#333333;">Assistive Text</p>
+          <form>
+            <label class="label1">LABEL</label>
+            <input type="text" class="text1" placeholder="Enter text here"/>
+            <label class="label1"><i class="fas fa-circle" style="color: #DD3782;"></i>&nbsp; ASSISTIVE TEXT</label>
+          </form>
+          <p class="body-text" style="color:#333333;">Resizable (Try resizing)</p>
+          <form>
+            <label class="label1">LABEL</label>
+            <textarea class="text1" rows="4" cols="50" placeholder="Enter text here"></textarea>
+          </form>
+        </section>
+
+        <section class="section">
+          <p class="section-label">Cards</p>
+          <p class="body-text" style="color:#333333;">Default card</p>
+          <div class="card">
+            <img class="pic1" src="pic.jpg">
+            <h1 style="padding:10px 10px 0px;">Heading</h1>
+            <p class="body-text" style="padding-left: 10px; padding-right: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo non diam vitae pulvinar. Cras vel est convallis fermentum lacinia vel nec ligula. Pellentesque congue tellus a dui condimentum, vitae facilisis sapien.</p>
+          </div>
+        </section>
+
+
       </div>
     </div>
     </main>
